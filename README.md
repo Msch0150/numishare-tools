@@ -23,7 +23,7 @@ Result:
 </nuds>        
 ```
 
-## Example two portraits
+## Example for two portraits
 It should look like:
 ```
 <obverse>
