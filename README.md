@@ -9,7 +9,7 @@ nuds.descMeta.typeDesc.authority.persname[xlink:role="portrait" xlink:href="{@}"
 Namespace: nm
 Data: augustus
 
-This get get the preffered Label via rdf requst for http://nomisma.org/id/augustus. The preffered lable will be set as value and the link will substitute the {@}-field in the attributes list.
+This get get the preffered label via rdf requst for http://nomisma.org/id/augustus. The preffered label will be set as value and the link will substitute the {@}-field in the attributes list.
 
 Result:
 ```
