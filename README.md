@@ -4,10 +4,12 @@
 
 Example:
 
-nuds.descMeta.typeDesc.authority.persname[xlink:role="portrait" xlink:href="{}"]
+nuds.descMeta.typeDesc.authority.persname[xlink:role="portrait" xlink:href="{@}"]
 
 Namespace: nm
 Data: augustus
+
+This get get the preffered Label via rdf requst for http://nomisma.org/id/augustus. The preffered lable will be set as value and the link will substitute the {@}-field in the attributes list.
 
 Result:
 ```
@@ -16,7 +18,7 @@ Result:
 		<typeDesc>
 			<objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin"/>
 			<authority>
-				<persname xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">augustus</persname>
+				<persname xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
 			</authority>
     </typeDesc>
 	</descMeta>        
@@ -27,7 +29,7 @@ Result:
 It should look like:
 ```
 <obverse>
-<persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/agrippa">Agrippa</persname>
-<persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
+    <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/agrippa">Agrippa</persname>
+    <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
 </obverse>
 ```
