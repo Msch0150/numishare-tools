@@ -22,3 +22,12 @@ Result:
 	</descMeta>        
 </nuds>        
 ```
+
+## Example two portraits
+It should look like:
+```
+<obverse>
+<persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/agrippa">Agrippa</persname>
+<persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
+</obverse>
+```
