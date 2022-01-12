@@ -52,11 +52,19 @@ It should look like:
 </subjectSet>
 ```
 
-## Usage with driect values
+## Usage with direct values
 ```
 nuds.descMeta.refDesc.reference[xlink:href="{@}"]
 ```
 Values in field: "@RPC I,522":
+
+```
+<refDesc>
+	<reference>RPC I, 522</reference>
+</refDesc>
+```
+
+Values in field: "@RPC I,522;ocre:ric.1(2).aug.154;ocre:ric.1(2).aug.155":
 
 ```
 <refDesc>
