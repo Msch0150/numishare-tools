@@ -50,3 +50,28 @@ It should look like:
 	<subject localType="Literature" xlink:href="http://www.worldcat.org/oclc/632554114" xlink:type="simple">Kraft, Haltern. In: Bonner Jahrb. 155/156, 1955/56, 105-124/subject>
 	<subject localType="Literature" xlink:href="https://www.persee.fr/doc/numi_0484-8942_2001_num_6_157_2331" xlink:type="simple">P.-A. Besombes/J.-N. Barrandon, Les dupondii de Nîmes. In: Revue numismatique 157, 2001, 305-328</subject>
 </subjectSet>
+
+## Usage with driect values
+```
+nuds.descMeta.refDesc.reference[xlink:href="{@}"]
+```
+Values in field: "@RPC I,522":
+
+```
+<refDesc>
+	<reference>RPC I, 522</reference>
+	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.154">RIC I (second edition) Augustus 154</reference>
+	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.155">RIC I (second edition) Augustus 155</reference>
+</refDesc>
+```
+
+Values in field: "@rpc:522;ocre:ric.1(2).aug.154;ocre:ric.1(2).aug.155":
+
+```
+<refDesc>
+	<reference></reference>
+	<reference xlink:href="https://rpc.ashmus.ox.ac.uk/coins/1/522">RPC I, 522</reference>
+	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.154">RIC I (second edition) Augustus 154</reference>
+	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.155">RIC I (second edition) Augustus 155</reference>
+</refDesc>
+```
