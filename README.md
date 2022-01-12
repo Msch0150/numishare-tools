@@ -95,3 +95,16 @@ Values in field: "@RPC I, 522|rpc:522;ocre:ric.1(2).aug.154;ocre:ric.1(2).aug.15
 	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.155">RIC I (second edition) Augustus 155</reference>
 </refDesc>
 ```
+
+Maybe better, if "|" is used, then the given value should be used. The lookup should not take place:
+
+Values in field: "myRPC I, 522|rpc:522;ocre:ric.1(2).aug.154;ocre:ric.1(2).aug.155"
+
+```
+<refDesc>
+	<reference></reference>
+	<reference xlink:href="https://rpc.ashmus.ox.ac.uk/coins/1/522">myRPC I, 522</reference>
+	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.154">RIC I (second edition) Augustus 154</reference>
+	<reference xlink:href="http://numismatics.org/ocre/id/ric.1(2).aug.155">RIC I (second edition) Augustus 155</reference>
+</refDesc>
+```
