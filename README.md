@@ -50,6 +50,7 @@ It should look like:
 	<subject localType="Literature" xlink:href="http://www.worldcat.org/oclc/632554114" xlink:type="simple">Kraft, Haltern. In: Bonner Jahrb. 155/156, 1955/56, 105-124/subject>
 	<subject localType="Literature" xlink:href="https://www.persee.fr/doc/numi_0484-8942_2001_num_6_157_2331" xlink:type="simple">P.-A. Besombes/J.-N. Barrandon, Les dupondii de Nîmes. In: Revue numismatique 157, 2001, 305-328</subject>
 </subjectSet>
+```
 
 ## Usage with driect values
 ```
