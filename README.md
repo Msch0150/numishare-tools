@@ -52,6 +52,13 @@ It should look like:
 </subjectSet>
 ```
 
+## Definition for FMRD
+Recommended cite:
+
+FMRD I 7128,9
+
+So, no tomb value as the 7xxx points to the 7th tomb, here Schwaben.
+
 ## Usage with direct values
 
 
