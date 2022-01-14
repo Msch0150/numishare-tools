@@ -1,5 +1,28 @@
 # numishare-tools
 
+## Guide
+
+### Building the the shortcut of the owner.
+
+1. Check if nomisma has already a unique shortcut. Examples: mk_berlin, nnc-dnb
+2. Do not use a "." in the shortcut.
+
+### Building object id
+
+Use charecaters, "-", "_", "\." only. Do not use ":", ";", "|"
+Exchange "," with "-".
+
+
+1. Use the object id or - if it does not exists - the internal id of the current owner with a prepending unique shortcut of the owner followed by a ".".
+	lvr-lmb.90.1742-04
+	jkh.20190228-002
+	srm.20190228-001
+	mk_berlin.18244645
+	nnc-dnb.1958-0669
+	
+	
+
+
 ## Usage {}
 
 Example:
