@@ -29,3 +29,5 @@ Maybe:
  <xsl:when test="$label='fmrdFindComplex'">FMRD Fundkomplex</xsl:when>
  <xsl:when test="$label='fmrdCoinNumber'">FMRD Münz Nr.</xsl:when>
 ...
+
+Does not work!
