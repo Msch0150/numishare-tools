@@ -11,8 +11,14 @@ Münze Nr. 9
 
 ## Implementation (draft)
 
-Add in Admin UI > Modify settings > Factes > + : fmrd_facet
+Add in Admin UI > Modify settings > Factes > + : fmrdFindComplex_facet
 
-        <subject localType="fmrd">IV 3456</subject>
+        
+        <subject localType="fmrdFindComplex">IV 3456</subject>
+        <subject localType="fmrdCoinNumber">9</subject>
+        
 
 Needs to be done in this way because otherwise the search might not work.
+Translation should be done in:
+
+
