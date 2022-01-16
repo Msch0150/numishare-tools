@@ -22,3 +22,10 @@ Needs to be done in this way because otherwise the search might not work.
 Translation should be done in:
 
 
+Maybe:
+./numishare/ui/xslt/functions.xsl:
+
+...
+ <xsl:when test="$label='fmrdFindComplex'">FMRD Fundkomplex</xsl:when>
+ <xsl:when test="$label='fmrdCoinNumber'">FMRD Münz Nr.</xsl:when>
+...
