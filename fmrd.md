@@ -9,3 +9,9 @@ Fundkomplex 7128 => 7xxx = Schwaben
 
 Münze Nr. 9
 
+## Implementation (draft)
+
+Add in Admin UI > Modify settings > Factes > + : fmrd_facet
+
+        <subject localType="fmrd">IV 3456</subject>
+
