@@ -28,6 +28,8 @@ Here only "fmrdFindComplex_facet" needs to be added because the "fmrdCoinNumber"
 
 That works! Maybe you have to reindex the collection.
 
+Config and translation for facets is stored in config.xml in the exist DB.
+
 ===
 
         
