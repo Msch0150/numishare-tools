@@ -11,6 +11,8 @@
 
 Use charecaters, "-", "_", "\." only. Do not use ":", ";", "|"
 Exchange "," with "-".
+Exchange " " with "_".
+Exchange "/" with "-".
 
 
 1. Use the object id or - if it does not exists - the internal id of the current owner with a prepending unique shortcut of the owner followed by a ".".
