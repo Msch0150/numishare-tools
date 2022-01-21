@@ -10,8 +10,9 @@
 ### Building object id
 
 Use charecaters, "-", "_", "\." only. Do not use ":", ";", "|"
+
 Exchange "," with "-".
-Exchange " " with "_".
+Exchange " " with "\_".
 Exchange "/" with "-".
 
 
