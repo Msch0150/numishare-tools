@@ -1,3 +1,17 @@
+# FMRD
+
+## fmrdFindComplex
+
+English: FMRD find complex
+
+German: FMRD Fundkomplex
+
+## fmrdCoinNumber
+
+English: FMRD coin number
+
+German: FMRD Münz Nr.
+
 # Literature
 
 ## literature
