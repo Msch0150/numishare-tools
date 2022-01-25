@@ -98,8 +98,8 @@ Values in field: "myRPC I, 522|rpc:522;ocre:ric.1(2).aug.154;ocre:ric.1(2).aug.1
 </refDesc>
 ```
 
+Example to place a driect value only, no link:
 
-(Not is use)
 ```
 nuds.descMeta.refDesc.reference[xlink:href="{@}"]
 ```
@@ -110,6 +110,7 @@ Values in field: "@RPC I,522":
 	<reference>RPC I, 522</reference>
 </refDesc>
 ```
+
 (Not is use)
 Values in field: "@RPC I,522;ocre:ric.1(2).aug.154;ocre:ric.1(2).aug.155":
 
